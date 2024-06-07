@@ -1,0 +1,40 @@
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: maroon;
+    color: black;
+    
+}
+header h1{
+    margin-left: 3%;
+    -webkit-text-stroke-color: whitesmoke;
+    -webkit-text-stroke-width: 0.5px;
+}
+nav ul{
+    display: inline-flex;
+    justify-content: space-between;
+    min-width: 250px;
+    margin-right;: 6%;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 992px){
+    header{
+     flex-wrap: wrap;
+     background-color: purple;
+    }
+    }
+  
+  @media screen and (max-width: 768px){
+    
+   header{
+    background-color: aqua;
+  
+   }
+  
