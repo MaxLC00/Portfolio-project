@@ -1,0 +1,161 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: maroon;
+    padding: 1%S;
+    color: black;
+
+}
+
+header h1 {
+    margin-left: 2%;
+    -webkit-text-stroke-color: whitesmoke;
+    -webkit-text-stroke-width: 0.5px;
+
+}
+
+div ul {
+    display: inline-flex;
+    justify-content: space-evenly;
+    min-width: 250px;
+    margin-right: 7%;
+    list-style-type: none;
+
+}
+
+body {
+    background-color: cornsilk;
+}
+
+.finished {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.WIP {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex: 1 1 0;
+    margin: auto;
+    border: 10px solid black;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 5px 10px 2em black;
+    transition: transform .6s;
+    border-radius: 25px;
+    min-width: 40vw;
+    max-width: 70vw;
+
+}
+
+.box:hover {
+    cursor: grab;
+    transform: scale(1.1);
+    box-shadow: 5px 10px 2em black;
+}
+
+.box:active {
+    display: flex;
+    min-width: 87vw;
+    min-height: 430px;
+    position: absolute;
+    top: auto;
+    border-style: none;
+    box-shadow: 5px 10px 2em black;
+}
+
+.finished h3 {
+    display: flex;
+    justify-content: left;
+    margin-left: 5vw;
+    text-decoration: underline;
+    text-decoration-color: maroon;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px
+}
+
+p{
+    font-size: 24px;
+    background-color: black;
+    color: cornsilk;
+    padding: 6px;
+    border-radius: 10%;
+    max-height: 28px;
+}
+
+
+#fin1{
+    background-image: url(graphic\ background.png);
+}
+
+
+#fin2{
+    background-image: url(type\ background.png);
+}
+
+
+#fin3{
+    background-image: url(code\ background.png);
+}
+
+#fin4{
+    background-image: url(multi\ background.png);
+}
+
+#wip{
+    background-image: url(RPS\ background.png);
+}
+
+#aboutme{
+}
+
+hr {
+    border-top: 4px dashed maroon;
+}
+
+.contact{
+    line-height: 30px;
+    justify-content: space-between;
+}
+
+.contact a{
+    font-size: 18px;
+}
+
+.logo {
+    width: 2%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-wrap: wrap;
+    }
+}
