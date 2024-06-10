@@ -20,7 +20,7 @@ header h1 {
 
 }
 
-nav ul {
+div ul {
     display: inline-flex;
     justify-content: space-evenly;
     min-width: 250px;
@@ -68,23 +68,14 @@ body {
     box-shadow: 5px 10px 2em black;
 }
 
-.box:active{
+.box:active {
     display: flex;
-    min-width: 90vw;
-    min-height: 400px;
-    position: relative;
-    top: 0;
+    min-width: 87vw;
+    min-height: 430px;
+    position: absolute;
+    top: auto;
     border-style: none;
-    background-color: blueviolet;
-}
-.box:{
-    display: flex;
-    min-width: 90vw;
-    min-height: 400px;
-    position: relative;
-    top: 0;
-    border-style: none;
-    background-color: blueviolet;
+    box-shadow: 5px 10px 2em black;
 }
 
 .finished h3 {
@@ -97,8 +88,57 @@ body {
     text-underline-offset: 10px
 }
 
+p{
+    font-size: 24px;
+    background-color: black;
+    color: cornsilk;
+    padding: 6px;
+    border-radius: 10%;
+    max-height: 28px;
+}
+
+
+#fin1{
+    background-image: url(graphic\ background.png);
+}
+
+
+#fin2{
+    background-image: url(type\ background.png);
+}
+
+
+#fin3{
+    background-image: url(code\ background.png);
+}
+
+#fin4{
+    background-image: url(multi\ background.png);
+}
+
+#wip{
+    background-image: url(RPS\ background.png);
+}
+
+#aboutme{
+}
+
 hr {
     border-top: 4px dashed maroon;
+}
+
+.contact{
+    line-height: 30px;
+    justify-content: space-between;
+}
+
+.contact a{
+    font-size: 18px;
+}
+
+.logo {
+    width: 2%;
+    height: auto;
 }
 
 footer {
