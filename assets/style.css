@@ -88,7 +88,7 @@ body {
     text-underline-offset: 10px
 }
 
-p{
+p {
     font-size: 24px;
     background-color: black;
     color: cornsilk;
@@ -98,37 +98,37 @@ p{
 }
 
 
-#fin1{
+#fin1 {
     background-image: url(graphic\ background.png);
 }
 
 
-#fin2{
+#fin2 {
     background-image: url(type\ background.png);
 }
 
 
-#fin3{
+#fin3 {
     background-image: url(code\ background.png);
 }
 
-#fin4{
+#fin4 {
     background-image: url(multi\ background.png);
 }
 
-#wip{
+#wip {
     background-image: url(RPS\ background.png);
 }
 
-.profpic{
+.profpic {
     display: flex;
-    flex:auto;
+    flex: auto;
     border-radius: 50%;
     border-style: dashed;
     margin: auto;
 }
 
-h4{
+h4 {
     text-indent: 50px;
 }
 
@@ -136,12 +136,12 @@ hr {
     border-top: 4px dashed maroon;
 }
 
-.contact{
+.contact {
     line-height: 30px;
     justify-content: space-between;
 }
 
-.contact a{
+.contact a {
     font-size: 18px;
 }
 
