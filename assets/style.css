@@ -120,7 +120,16 @@ p{
     background-image: url(RPS\ background.png);
 }
 
-#aboutme{
+.profpic{
+    display: flex;
+    flex:auto;
+    border-radius: 50%;
+    border-style: dashed;
+    margin: auto;
+}
+
+h4{
+    text-indent: 50px;
 }
 
 hr {
